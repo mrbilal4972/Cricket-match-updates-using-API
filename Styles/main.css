@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    margin-bottom: 4em;
+}
+
+.navbar{
+    background-color: rgb(159, 189, 230) !important;
+}
+
+#title{
+    font-weight: bold;
+}
+
+#matches{
+    margin: auto;
+}
+
+.border{
+    border: 1px solid rgb(136, 128, 128);
+    box-shadow: 1px 1px 1px 1px black;
+}
+.team, .vs{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
