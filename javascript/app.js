@@ -16,8 +16,8 @@ xhr.onload = function() {
         console.log(getmatches)
         getmatches.forEach((item, index) => {
             console.log(item['team-1'], item['team-2']);
-            matches.insertAdjacentHTML("beforeend", `<div class="col-lg-6 mt-4">
-                                                            <div class="card border" style="width: 30rem; height: 18rem;">
+            matches.insertAdjacentHTML("beforeend", `<div class="col-lg-6 mt-4" style="width: 30rem;">
+                                                            <div class="card border card-height">
                                                                 <div class="card-body">
                                                                     <h5 class="card-title">${item['type']} Match</h5>
                                                                     <h6 class="card-subtitle mb-2 text-muted">${item['dateTimeGMT']}</h6>

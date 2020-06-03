@@ -11,8 +11,9 @@ body{
     font-weight: bold;
 }
 
-#matches{
-    margin: auto;
+.card-height{
+    min-height: 17rem;
+    max-height: auto;
 }
 
 .border{
